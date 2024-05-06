@@ -1,6 +1,7 @@
 
 
-.env
 
-node_modules/
 keys/
+node_modules/
+
+.env
