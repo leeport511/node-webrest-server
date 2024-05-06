@@ -12,8 +12,7 @@ import { Server } from "./presentation/server";
 function main() {
 
     const server = new Server({
-        port: envs.PORT,
-        publicPath: envs.PUBLIC_PATH,
+        port: envs.PORT
     })
 
     server.start()
